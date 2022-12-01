@@ -1,0 +1,70 @@
+/* Reset CSS */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+1.Từ ngoài vào trong
+2.Từ trên xuống dưới
+3.Tổng quan đến chi tiết
+ */
+/* 
+1.Vị trí
+2.Kích thước(width, height)
+3.Màu sắc
+4.Kiêu dáng (Kiểu chữ, hình tròn,vuông,...)
+ */
+html{
+    /* Phông chữ */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+
+
+}
+#header{
+    height: 46px;
+    background-color: #000;
+}
+#nav{
+
+}
+#nav li{
+    /* hiển thị các mục danh sách theo chiều ngang thay vì theo chiều dọc */
+    display: inline-block;
+
+}
+
+#nav li a{
+    color:white;
+    /* Định dạng văn bản bình thường,bỏ gạch chân */text-decoration: none;
+    /* Chiều cao dòng chữ */line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a{
+    color:#000;
+    background-color: #ccc;
+
+}
+
+#nav .subnav{
+    /* làm cho một phần tử ẩn đi */
+    display:none; 
+}
+
+
+#slider{
+
+
+}
+#content{
+
+
+}
+#footer{
+
+
+}
